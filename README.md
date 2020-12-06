@@ -1,2 +1,2 @@
-# bayesian_torndao
+# bayesian_tornado
 Bayesian Machine Learning Final Project
