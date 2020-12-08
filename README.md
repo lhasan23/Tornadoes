@@ -10,7 +10,7 @@ Since our dataset contains both categorical and numeric variables, we started wi
 
 ## Multinomial Logistic Regression 
 
-Since our response variable is categorical with more than two classes, we modeled our data using a [multinomial logistic regression model](https://github.com/prabsingh1/bayesian_tornado/blob/main/tornados-Naive%20Bayes.ipynb). Multinomial logistic regression uses a softmax function to compute the regression parameters, as opposed to the sigmoid function used in binary logistic regression.    
+Since our response variable is categorical with more than two classes, we modeled our data using multinomial logistic regression. Multinomial logistic regression uses a softmax function to compute the regression parameters, as opposed to the sigmoid function used in binary logistic regression. We first built our [models using sampling](https://github.com/prabsingh1/bayesian_tornado/blob/main/multinomial_sampling.ipynb) to obtain trace plots and forest plots. We then used [variational approximation](https://github.com/prabsingh1/bayesian_tornado/blob/main/multinomial_variational_approx.ipynb) to determine the accuracy of the models. 
 
 
 ## Hierarchical Multinomial Logistic Regression 
